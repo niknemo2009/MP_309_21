@@ -1,3 +1,5 @@
+package domino
+
 interface DominoPlayer {
     val name: String
     val storage: MutableList<Domino>

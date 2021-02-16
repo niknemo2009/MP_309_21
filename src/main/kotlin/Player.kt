@@ -1,3 +1,6 @@
+import domino.Domino
+import domino.DominoPlayer
+
 class Player(override val name:String, override val storage: MutableList<Domino> = mutableListOf()) : DominoPlayer {
     override fun makeNextStep(table: MutableList<Domino>): Domino? {
         fun canMakeNextStep(i: Domino, j: Domino): Boolean {

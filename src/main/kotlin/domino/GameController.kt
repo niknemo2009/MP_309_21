@@ -1,3 +1,7 @@
+package domino
+
+import Player
+
 class GameController(private val players: MutableList<DominoPlayer>) {
 
     private val storage: MutableList<Domino> = mutableListOf()
